@@ -63,7 +63,7 @@ def processRequest(req):
         if(output==2):
             flowr = 'Virginica'
        
-        fulfillmentText= "The Iris type seems to be..  {} !".format(flowr)
+        fulfillmentText= "The Iris type seems to be.. + flowr +"!"
         #log.write_log(sessionID, "Bot Says: "+fulfillmentText)
         return {
             "fulfillmentText": fulfillmentText
